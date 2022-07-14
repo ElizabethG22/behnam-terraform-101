@@ -9,7 +9,7 @@ This is a basic example of using Terraform to create an EC2 instance on AWS.
 
 ## Installation
 
-- Create an environment file `deploy/.sainsburys.env` and put your fresh `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN` in it. (you can find these credentials with command  `cat ~/.aws/credentials`)
+- Create an environment file `deploy/.env` and put your fresh `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN` in it. (you can find these credentials with command  `cat ~/.aws/credentials`)
 ```sh
 aws-azure-login --profile bootcamp-sandbox --mode=gui
 ```
